@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Muhammad Hussain Nagoo | Senior Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+<style>
+body {
+margin:0;
+font-family:Poppins;
+background:#f9fafb;
+color:#1f2937;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav {
+position:fixed;
+width:100%;
+background:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+z-index:1000;
+}
+nav a {
+margin-left:20px;
+text-decoration:none;
+color:#374151;
+font-weight:500;
+}
+
+/* HERO */
+.hero {
+padding-top:120px;
+text-align:center;
+background:#eef2f7;
+padding-bottom:60px;
+}
+.hero img {
+width:160px;
+border-radius:50%;
+border:4px solid #3b82f6;
+}
+
+/* SECTION */
+section {
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+/* CARD */
+.card {
+background:white;
+padding:25px;
+border-radius:12px;
+margin-top:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+.card:hover {
+transform:translateY(-5px);
+}
+
+/* GRID */
+.grid {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+/* BUTTON */
+.btn {
+background:#3b82f6;
+color:white;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+margin:5px;
+display:inline-block;
+}
+
+/* SKILLS */
+.skill {
+background:#e5e7eb;
+border-radius:10px;
+margin-bottom:10px;
+}
+.skill div {
+height:18px;
+background:#3b82f6;
+border-radius:10px;
+}
+
+/* FLOAT WHATSAPP */
+.wa {
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+width:60px;height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<b>Muhammad Hussain Nagoo</b>
+<div>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+
+<!-- IMPORTANT: PUT YOUR IMAGE FILE -->
+<img src="profile.jpg">
+
+<h1>Muhammad Hussain Nagoo</h1>
+
+<p><b>Senior Engineer | AMI Engineer | Smart Meter Systems</b></p>
+
+<p>
+Techno Electric & Engineering Co. Ltd.<br>
+Srinagar, India
+</p>
+
+<a href="cv.pdf" class="btn">Download CV</a>
+<a href="https://www.linkedin.com/in/muhammad-hussain-nagoo-26092a365/" class="btn">LinkedIn</a>
+
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+
+<div class="card">
+<p>
+Senior Engineer specializing in Advanced Metering Infrastructure (AMI),
+Smart Meter Data Analytics, and Utility Systems including HES, WFM, and MDM.
+Experienced in automation, energy data analytics, and system integration.
+</p>
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Professional Experience</h2>
+
+<div class="card">
+<h3>Senior Engineer</h3>
+<p><b>Techno Electric & Engineering Co. Ltd.</b></p>
+<p>Oct 2024 – Present | Srinagar, India</p>
+
+<ul>
+<li>Advanced Metering Infrastructure (AMI) operations</li>
+<li>Smart Meter MRI, Load Survey & Tamper Analysis</li>
+<li>Event log analysis (Overload, Overcurrent, Tamper)</li>
+<li>Energy data analytics & reporting</li>
+
+<li>Head End System (HES) monitoring</li>
+<li>Workforce Management (WFM) operations</li>
+<li>Meter Data Management (MDM)</li>
+<li>Work order lifecycle management</li>
+
+<li>DCU & communication troubleshooting</li>
+<li>Field diagnostics and integration</li>
+
+<li>Python automation (Pandas, OpenPyXL, ReportLab)</li>
+<li>Excel automation (VBA, macros)</li>
+<li>Google Sheets & AppSheet solutions</li>
+</ul>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Project Case Studies</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>MRI Smart Meter Analyzer</h3>
+<p><b>Problem:</b> Manual analysis was slow and error-prone.</p>
+<p><b>Solution:</b> Built Python automation tool.</p>
+<p><b>Impact:</b> Reduced effort by 80%.</p>
+</div>
+
+<div class="card">
+<h3>AMI Workflow System</h3>
+<p><b>Problem:</b> Poor tracking of work orders.</p>
+<p><b>Solution:</b> Built AppSheet + Google Sheets system.</p>
+<p><b>Impact:</b> Improved efficiency.</p>
+</div>
+
+<div class="card">
+<h3>Event Analysis System</h3>
+<p><b>Problem:</b> Hard to detect overload events.</p>
+<p><b>Solution:</b> Automated event detection.</p>
+<p><b>Impact:</b> Faster fault detection.</p>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Core Skills</h2>
+
+<p>Python Automation</p>
+<div class="skill"><div style="width:90%"></div></div>
+
+<p>AMI & Smart Meter Systems</p>
+<div class="skill"><div style="width:90%"></div></div>
+
+<p>HES / WFM / MDM</p>
+<div class="skill"><div style="width:85%"></div></div>
+
+<p>Excel & Google Sheets</p>
+<div class="skill"><div style="width:88%"></div></div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="card">
+<p><a href="mailto:muhammadhussainee1@gmail.com">Personal Email</a></p>
+<p><a href="mailto:muhammad.hussain@technoami.co.in">Work Email</a></p>
+
+<a href="https://wa.me/919796818691" class="btn">WhatsApp</a>
+</div>
+
+</section>
+
+<!-- FLOAT -->
+<a href="https://wa.me/919796818691" class="wa">💬</a>
+
+</body>
+</html>
