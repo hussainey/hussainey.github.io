@@ -1,52 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-<title>MRI Meter Data Analysis using Python</title>
-
-<meta name="description" content="Complete guide to MRI meter data analysis, load survey, tamper detection and smart meter analytics using Python.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
-<body style="font-family:Arial; max-width:900px; margin:auto; padding:20px;">
-
 <h1>MRI Meter Data Analysis using Python</h1>
 
 <p>
-MRI meter data analysis is essential for detecting anomalies in smart meters,
-including overload, overcurrent, and tamper events.
+MRI meter data analysis is a critical process in smart meter systems used in
+Advanced Metering Infrastructure (AMI). It helps detect anomalies such as overload,
+overcurrent, voltage fluctuations, and tamper events in electricity meters.
+</p>
+
+<h2>What is MRI Meter Data?</h2>
+<p>
+MRI (Meter Reading Instrument) data contains detailed information extracted from
+smart meters, including load survey data, voltage, current, and event logs.
+These files are typically in Excel format and are used for analysis and reporting.
 </p>
 
 <h2>Load Survey Analysis</h2>
 <p>
-Load survey files contain half-hourly current and voltage data.
-Using Python, we extract maximum current, last non-zero current,
-and voltage patterns.
+Load survey data contains half-hourly or interval-based readings of current and voltage.
+Using Python, we can extract important parameters such as:
+</p>
+
+<ul>
+<li>Maximum current</li>
+<li>Last non-zero current</li>
+<li>Voltage corresponding to max current</li>
+<li>Average voltage trends</li>
+</ul>
+
+<p>
+This helps in identifying abnormal consumption patterns and potential faults.
 </p>
 
 <h2>Tamper Event Detection</h2>
 <p>
-Tamper logs include events like:
-- Overcurrent
-- Overload
-- Voltage imbalance
+Tamper event logs include important events such as:
+</p>
 
-These events are analyzed to detect abnormal behavior.
+<ul>
+<li>Overcurrent events</li>
+<li>Overload events</li>
+<li>Voltage imbalance</li>
+<li>Meter cover open</li>
+</ul>
+
+<p>
+By analyzing these events, engineers can detect irregularities and possible
+meter tampering or faults in the system.
 </p>
 
 <h2>Automation using Python</h2>
 <p>
-Using libraries like Pandas and OpenPyXL, MRI files are processed
-automatically to generate reports.
+Python is widely used for automating MRI meter analysis. Libraries such as Pandas
+and OpenPyXL allow efficient processing of Excel-based meter data.
 </p>
+
+<p>
+Automation helps in:
+</p>
+
+<ul>
+<li>Reducing manual effort</li>
+<li>Generating reports quickly</li>
+<li>Improving accuracy</li>
+<li>Handling large datasets</li>
+</ul>
 
 <h2>Conclusion</h2>
 <p>
-Automating MRI meter analysis improves efficiency, reduces manual effort,
-and helps utilities detect faults faster.
+Automating MRI meter data analysis improves operational efficiency and enables
+utilities to detect faults faster. It plays a vital role in modern smart grid systems.
 </p>
-
-</body>
-</html>
