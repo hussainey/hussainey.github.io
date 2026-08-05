@@ -1,112 +1,293 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
-
-<title>Smart Meter Data Analysis | AMI Engineer | Python Automation</title>
-
-<meta name="google-site-verification" content="lpTEKuEXl_y1KOvODT2hs2spp5nMHS6vQP-uZ9ry3Bc" />
-
-<meta name="description" content="Smart Meter Data Analysis, MRI Meter Analysis, AMI Systems, HES, WFM, MDM, Python Automation and Energy Data Analytics by Muhammad Hussain Nagoo.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Muhammad Hussain Nagoo | AMI Engineer</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 <style>
-body {margin:0;font-family:Poppins;background:#f9fafb;color:#1f2937;}
-nav {position:fixed;width:100%;background:white;padding:15px 30px;display:flex;justify-content:space-between;box-shadow:0 2px 10px rgba(0,0,0,0.08);z-index:1000;}
-nav a {margin-left:20px;text-decoration:none;color:#374151;font-weight:500;}
-.hero {padding-top:120px;text-align:center;background:#eef2f7;padding-bottom:60px;}
-.hero img {width:160px;border-radius:50%;border:4px solid #3b82f6;}
-section {padding:60px 20px;max-width:1100px;margin:auto;}
-.card {background:white;padding:25px;border-radius:12px;margin-top:20px;box-shadow:0 5px 15px rgba(0,0,0,0.05);}
-.grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
-.btn {background:#3b82f6;color:white;padding:10px 20px;border-radius:8px;text-decoration:none;margin:5px;display:inline-block;}
-.skill {background:#e5e7eb;border-radius:10px;margin-bottom:10px;}
-.skill div {height:18px;background:#3b82f6;border-radius:10px;}
+
+/* ================= FOOTER ================= */
+.footer{
+    background:#0f172a;
+    padding:70px 20px 35px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+.footer-name{color:#fff;font-size:30px;font-weight:700;margin-bottom:10px;}
+.footer-title{color:#38bdf8;font-size:18px;font-weight:500;margin-bottom:20px;}
+.footer-tagline{max-width:850px;margin:0 auto 35px;color:#cbd5e1;font-size:16px;line-height:1.8;}
+.footer-social{display:flex;justify-content:center;gap:18px;margin-bottom:35px;}
+.footer-social a{width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);color:#fff;font-size:20px;transition:.3s ease;text-decoration:none;}
+.footer-social a:hover{background:#0ea5e9;transform:translateY(-5px);}
+.copyright{color:#94a3b8;font-size:14px;margin:0;}
 </style>
-
 </head>
-
 <body>
+<div id="particles-js"></div>
+<!--================ HEADER ================-->
+<header>
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">
 
-<nav>
-<b>Smart Meter Expert</b>
-<div>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
+MHN
+
+</a>
+<button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a href="#home">Home</a></li>
+<li class="nav-item"><a href="#about">About</a></li>
+<li class="nav-item"><a href="#experience">Experience</a></li>
+<li class="nav-item"><a href="#skills">Skills</a></li>
+<li class="nav-item"><a href="#projects">Projects</a></li>
+<li class="nav-item"><a href="#contact">Contact</a></li>
+</ul>
+</div>
 </div>
 </nav>
+</header>
+<!--================ HERO =================-->
+<section id="home">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-7">
+<h4>Hello I'm</h4>
+<h1>Muhammad Hussain Nagoo</h1>
+<h2>
+<span id="typing"></span>
+</h2>
+<p>Senior AMI Engineer specializing in Head-End System (HES) Operations, Burnt Meter MRI Analysis, Smart Meter Analytics, Python Automation, Google AppSheet Development, Work Force Management, SLA Management and Smart Meter Operations.</p>
+<div class="hero-buttons">
+<a class="btn btn-primary" href="#contact">
 
-<div class="hero">
+Hire Me
 
-<img src="profile.jpg">
+</a>
+<a class="btn btn-outline-light" href="#">
 
-<h1>Smart Meter Data Analysis & Python Automation Expert</h1>
+Download Resume
 
-<h2>MRI Meter Analysis | AMI Systems | HES | WFM | MDM</h2>
-
-<p>
-I specialize in Smart Meter Data Analysis, MRI file processing, tamper detection,
-and automation using Python, Excel, and AppSheet.
-</p>
-
-<a href="mri-meter-analysis.html" class="btn">📊 MRI Analysis Guide</a>
-
+</a>
 </div>
-
+<div class="social-icons">
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fas fa-envelope"></i></a>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<div class="col-lg-5 text-center">
+<div class="profile-card">
+<img alt="Profile" class="img-fluid" src="profile.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--================ ABOUT ================-->
 <section id="about">
-<h2>About Me</h2>
+<div class="container">
+<h2 class="section-title">
 
-<div class="card">
-<p>
-I am a Senior Engineer working in Advanced Metering Infrastructure (AMI),
-with expertise in smart meter data analytics, tamper event detection,
-and automation using Python.
+About Me
 
-I work on MRI meter analysis, load survey data, event logs like overload,
-overcurrent, and voltage anomalies, helping utilities detect faults faster.
-</p>
+</h2>
+<div class="row">
+<div class="col-lg-7">
+<p>Results-driven Senior AMI Engineer with expertise in Head-End System (HES) Operations, Burnt Meter MRI Analysis, Smart Meter Analytics, Python Automation, Google AppSheet Development, Advanced Excel, Google Sheets, Power Query, Work Force Management, Inventory Management, Meter Grading, SLA Monitoring and Workflow Automation.</p>
 </div>
-
+<div class="col-lg-5">
+<div class="stats"><div class="stat"><h2>25,000+</h2><p>Burnt Meter MRI Analyses</p></div><div class="stat"><h2>22+</h2><p>Google AppSheet Apps</p></div><div class="stat"><h2>6+</h2><p>Python Automations</p></div><div class="stat"><h2>3+</h2><p>Years Experience</p></div></div>
+</div>
+</div>
+</div>
 </section>
+<!--================ EXPERIENCE =================-->
+<section id="experience">
+<div class="container">
+<h2 class="section-title" data-aos="fade-up">
 
+Professional Experience
+
+</h2>
+<div class="timeline">
+<!-- Experience 1 -->
+<div class="timeline-item glass">
+<div class="timeline-icon">
+<i class="fas fa-microchip"></i>
+</div>
+<div class="timeline-content">
+<h3>Senior AMI Engineer – Operations &amp; Maintenance</h3>
+<h5>Techno Electric Engineering Pvt. Ltd.</h5>
+<span class="timeline-date">
+
+2023 – Present
+
+</span>
+<ul><li>Conducted 25,000+ Burnt Smart Meter MRI analyses under RDSS and PMDP-II projects to determine technical root causes of meter failures.</li><li>Performed MRI, Event Log, Load Survey and Meter Health Analysis to attribute failures to KPDCL/DISCOM, Vendor, Manufacturer, Consumer or external electrical conditions.</li><li>Prepared technical attribution reports supporting warranty claims, manufacturer defect analysis, replacement approvals and vendor performance evaluation.</li><li>Managed the complete Burnt Meter lifecycle including receipt, grading, serial number verification, packing, dispatch, replacement tracking and inventory reconciliation.</li><li>Performed serial number scanning and verification for burnt and replacement meters to ensure complete asset traceability.</li><li>Operated and monitored the Head-End System (HES) for smart meter communication, meter health and operational status.</li><li>Executed remote connect, remote disconnect and reconnection operations through HES.</li><li>Monitored Data Concentrator Units (DCUs), communication failures and coordinated restoration with field teams.</li><li>Managed Work Force Management (WFM), including work order creation, assignment, approval, monitoring and closure.</li><li>Planned and coordinated site team deployment for meter replacement, inspections and maintenance activities.</li><li>Prepared monthly SLA reports, processed SLA exclusions and minimized contractual penalties through operational compliance.</li><li>Developed 6+ Python automation tools for MRI analysis, reporting and workflow automation.</li><li>Designed and maintained 22+ Google AppSheet applications for field operations, inspections and inventory management.</li><li>Built Advanced Excel, Google Sheets and Power Query solutions for SLA monitoring, dashboards, reconciliation, meter grading and MIS reporting.</li><li>Collaborated with utilities, manufacturers, vendors and management teams to improve AMI operational performance.</li></ul>
+</div>
+</div>
+<!-- Experience 2 -->
+<div class="timeline-item glass">
+<div class="timeline-icon">
+<i class="fas fa-building"></i>
+</div>
+<div class="timeline-content">
+<h3>Construction Site Supervisor</h3>
+<h5>Construction Company</h5>
+<span class="timeline-date">
+
+2022 – 2023
+
+</span>
+<ul>
+<li>Supervised daily site activities.</li>
+<li>Managed construction workforce.</li>
+<li>Coordinated with Engineers and Contractors.</li>
+<li>Ensured Quality Standards and Workplace Safety.</li>
+</ul>
+</div>
+</div>
+<!-- Experience 3 -->
+<div class="timeline-item glass">
+<div class="timeline-icon">
+<i class="fas fa-network-wired"></i>
+</div>
+<div class="timeline-content">
+<h3>Fiber Technician</h3>
+<h5>Airtel Broadband</h5>
+<span class="timeline-date">
+
+2021 – 2022
+
+</span>
+<ul>
+<li>Installed Fiber Optic Broadband Connections.</li>
+<li>Resolved Customer Network Issues.</li>
+<li>Performed Troubleshooting and Maintenance.</li>
+<li>Supported Broadband Expansion Projects.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--================ SKILLS =================-->
+<section id="skills">
+<div class="container">
+<h2 class="section-title">
+
+Technical Skills
+
+</h2>
+<div class="skills-grid"><div class="glass"><h4>Burnt Meter MRI Analysis</h4></div><div class="glass"><h4>Python</h4></div><div class="glass"><h4>Google AppSheet</h4></div><div class="glass"><h4>Advanced Excel</h4></div><div class="glass"><h4>Google Sheets</h4></div><div class="glass"><h4>Power Query</h4></div><div class="glass"><h4>Workflow Automation</h4></div><div class="glass"><h4>Data Analytics</h4></div><div class="glass"><h4>AMI Operations &amp; Maintenance</h4></div><div class="glass"><h4>Work Force Management</h4></div><div class="glass"><h4>Inventory Management</h4></div><div class="glass"><h4>SLA Monitoring</h4></div><div class="glass"><h4>Meter Grading</h4></div><div class="glass"><h4>Data Reconciliation</h4></div><div class="glass"><h4>Technical Reporting</h4></div><div class="glass"><h4>MIS Reporting</h4></div></div>
+</div>
+</section>
+<!--================ PROJECTS =================-->
 <section id="projects">
-<h2>Smart Meter Projects</h2>
+<div class="container">
+<h2 class="section-title">
 
-<div class="grid">
+Projects
 
-<div class="card">
-<h3>MRI Smart Meter Data Analysis using Python</h3>
-<p>
-Developed a Python-based tool to analyze MRI meter files including load survey
-data, current, voltage, and tamper events. Extracts key parameters like max current,
-event timestamps, and voltage anomalies automatically.
-</p>
+</h2>
+<div class="projects-grid"><div class="glass"><h3>Burnt Meter MRI Automation</h3><p>Automated MRI analysis and reporting for burnt smart meters.</p></div><div class="glass"><h3>Google AppSheet Solutions</h3><p>Developed 22+ AppSheet applications for operations.</p></div><div class="glass"><h3>Python Automation</h3><p>Created 6+ automation tools for reporting and Excel processing.</p></div><div class="glass"><h3>Excel &amp; Google Sheets Dashboards</h3><p>Built operational dashboards and reconciliation tools.</p></div></div>
 </div>
-
-<div class="card">
-<h3>AMI Workflow Automation System</h3>
-<p>
-Built an AppSheet + Google Sheets solution to manage field surveys,
-assign consumer tasks, and track work orders in real-time.
-</p>
+</section>
+<section id="education">
+<div class="container">
+<h2 class="section-title">Education &amp; Certifications</h2>
+<div class="projects-grid">
+<div class="glass">
+<h3><i class="fas fa-graduation-cap"></i> Education</h3>
+<p><strong>Bachelor of Computer Applications (Pursuing)</strong><br/>
+Lovely Professional University (LPU)</p>
+<p><strong>Diploma in Computer Engineering</strong><br/>
+Jammu &amp; Kashmir State Board of Technical Education (JKSBOTE)</p>
 </div>
-
+<div class="glass">
+<h3><i class="fas fa-certificate"></i> Professional Certification</h3>
+<p><strong>Junior Smart Meter Technician</strong></p>
+<p>Power Sector Skill Council (PSSC)</p>
+<p>Recognised by NCVET</p>
+<p>Certificate for Skill Competency</p>
 </div>
-
+<div class="glass">
+<h3><i class="fas fa-trophy"></i> Key Achievements</h3>
+<ul>
+<li>25,000+ Burnt Meter MRI Analyses</li>
+<li>22+ Google AppSheet Applications</li>
+<li>6+ Python Automation Solutions</li>
+<li>HES Operations &amp; Remote Connect/Disconnect</li>
+<li>WFM, SLA &amp; DCU Monitoring</li>
+<li>Technical Attribution &amp; Warranty Claim Analysis</li>
+</ul>
+</div>
+<div class="glass">
+<h3><i class="fas fa-user-tie"></i> Professional Profile</h3>
+<p>Senior AMI Engineer specializing in Head-End System (HES), Smart Meter Analytics, Burnt Meter MRI Analysis, Automation, Work Force Management, SLA Management and Utility Operations.</p>
+</div>
+</div>
+</div>
 </section>
 
+<!--================ CONTACT =================-->
 <section id="contact">
-<h2>Contact</h2>
+<div class="container">
+<h2 class="section-title">
 
-<div class="card">
-<p>Email: muhammadhussainee1@gmail.com</p>
-<p><a href="https://wa.me/919796818691">WhatsApp</a></p>
+Contact Me
+
+</h2>
+<form>
+<input placeholder="Name" type="text"/>
+<input placeholder="Email" type="email"/>
+<textarea placeholder="Message"></textarea>
+<button>
+
+Send Message
+
+</button>
+</form>
 </div>
-
 </section>
+<footer class="footer">
+    <div class="container">
 
-</body>
+        <h3 class="footer-name">Muhammad Hussain Nagoo</h3>
+
+        <p class="footer-title">
+            Senior AMI Engineer | Smart Meter Analytics | HES Operations | Python Automation
+        </p>
+
+        <p class="footer-tagline">
+            Committed to engineering excellence through innovation, precision, and continuous professional growth. Delivering reliable AMI, Smart Meter, and automation solutions that create lasting value.
+        </p>
+
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/muhammad-hussain-nagoo-26092a365" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/hussainey/hussainey.github.io" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:muhammadhussainee1@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/919796818691" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <p class="copyright">© 2026 Muhammad Hussain Nagoo. All Rights Reserved.</p>
+
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>document.addEventListener('DOMContentLoaded',()=>{if(window.AOS){AOS.init({once:true,duration:700});}});</script></body>
 </html>
